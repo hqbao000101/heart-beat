@@ -5,5 +5,8 @@ h1 {
   left: 50%;
   transform: translate(-50%, -100%);
   font-style: italic;
-  text-shadow: 1px 1px 5px white;
+  text-shadow: 2px 2px 7px red;
+  font-family: "Doto", sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
 }
