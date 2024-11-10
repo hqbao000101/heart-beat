@@ -1,0 +1,9 @@
+h1 {
+  color: rgb(240, 8, 197);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  font-style: italic;
+  text-shadow: 1px 1px 5px white;
+}
