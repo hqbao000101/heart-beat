@@ -7,12 +7,14 @@
     <meta name="Keywords" content="" />
     <meta name="Description" content="" />
     <link rel="shortcut icon" href="./heart-icon.png" type="image/x-icon" />
+    <!-- ! Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Courgette&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Estonia&display=swap"
       rel="stylesheet"
     />
+    <!-- end -->
     <style>
       html,
       body {
@@ -57,7 +59,7 @@
   </head>
 
   <body>
-    <h1 id="type-effect"></h1>
+    <h1 id="type-effect">Chào nhó!</h1>
     <canvas id="pinkboard">
       <canvas id="pinkboard"> </canvas>
     </canvas>
@@ -289,7 +291,8 @@
           }
           context.closePath();
           // create the fill
-          context.fillStyle = "#ea80b0";
+          // context.fillStyle = "#ea80b0";
+          context.fillStyle = "#ff0000";
           context.fill();
           // create the image
           var image = new Image();
@@ -342,14 +345,14 @@
         }, 10);
       })(document.getElementById("pinkboard"));
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/typeit@8.8.7/dist/index.umd.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/typeit@8.8.7/dist/index.umd.min.js"></script>
     <script>
       new TypeIt("#type-effect", {
         cursor: false,
         loop: true,
         speed: 500,
-        strings: "khó",
+        strings: "Hi",
       }).go();
-    </script>
+    </script> -->
   </body>
 </html>
